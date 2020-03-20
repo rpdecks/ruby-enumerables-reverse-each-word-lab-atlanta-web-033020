@@ -6,7 +6,7 @@ def reverse_each_word(string)
   input.each do |memo|
     reversed_array = memo.reverse
   end
-  input.join(" ")
+  reversed_array.join(" ")
   #binding.pry
 end
 
