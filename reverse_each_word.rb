@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(string)
   input = string.split(/ /)
   input.each do |memo|
-    memo = "#{memo}".reverse
+    "#{memo}".reverse
   end
   input.join(" ")
   #binding.pry
