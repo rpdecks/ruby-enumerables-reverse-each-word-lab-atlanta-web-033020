@@ -5,8 +5,8 @@ def reverse_each_word(string)
   #reversed_array = []
   input.collect do |memo|
     #reversed_array.push(memo.reverse)
+    memo.reverse
   end
-  reversed_array.join(" ")
   #binding.pry
 end
 
